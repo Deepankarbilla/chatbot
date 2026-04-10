@@ -2,7 +2,7 @@ import random
 
 intents = {
     "greeting": {
-        "patterns": ["hello", "hi", "hey", "good morning"],
+        "patterns": ["hello", "hi", "hey", "good morning","welecome"],
         "responses": ["Hello!", "Hi there!", "Hey! How can I help you?"]
     },
     "how_are_you": {
