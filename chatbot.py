@@ -1,9 +1,15 @@
 import random
 
+<<<<<<< HEAD
 # Intents (like brain of chatbot)
 intents = {
     "greeting": {
         "patterns": ["hello", "hi", "hey", "good morning"],
+=======
+intents = {
+    "greeting": {
+        "patterns": ["hello", "hi", "hey", "good morning","welecome"],
+>>>>>>> 9ed7ae9b257cdec35f53e7011b024bc007ba4135
         "responses": ["Hello!", "Hi there!", "Hey! How can I help you?"]
     },
     "how_are_you": {
@@ -20,7 +26,11 @@ intents = {
     },
     "bye": {
         "patterns": ["bye", "exit", "quit"],
+<<<<<<< HEAD
         "responses": ["Goodbye!", "See you later!", "Bye! Take care 👋"]
+=======
+        "responses": ["Goodbye!", "See you later!", "Bye! Take care "]
+>>>>>>> 9ed7ae9b257cdec35f53e7011b024bc007ba4135
     }
 }
 
@@ -52,4 +62,8 @@ def chatbot():
                 "I'm still learning!"
             ]))
 
+<<<<<<< HEAD
 chatbot()
+=======
+chatbot()
+>>>>>>> 9ed7ae9b257cdec35f53e7011b024bc007ba4135
